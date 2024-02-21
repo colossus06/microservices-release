@@ -47,7 +47,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/emailservice:latest
+        image: elkakimmie/emailservice:127
         ports:
         - containerPort: 8080
         env:
@@ -112,7 +112,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: elkakimmie/checkoutservice:latest
+          image: elkakimmie/checkoutservice:127
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -186,7 +186,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/recommendationservice:latest
+        image: elkakimmie/recommendationservice:127
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -255,7 +255,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: elkakimmie/frontend:latest
+          image: elkakimmie/frontend:127
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -367,7 +367,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/paymentservice:latest
+        image: elkakimmie/paymentservice:127
         ports:
         - containerPort: 50051
         env:
@@ -431,7 +431,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/productcatalogservice:latest
+        image: elkakimmie/productcatalogservice:127
         ports:
         - containerPort: 3550
         env:
@@ -587,7 +587,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/loadgenerator:latest
+        image: elkakimmie/loadgenerator:127
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -630,7 +630,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/currencyservice:latest
+        image: elkakimmie/currencyservice:127
         ports:
         - name: grpc
           containerPort: 7000
@@ -694,7 +694,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/shippingservice:latest
+        image: elkakimmie/shippingservice:127
         ports:
         - containerPort: 50051
         env:
@@ -824,7 +824,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/adservice:123
+        image: elkakimmie/adservice:127
         ports:
         - containerPort: 9555
         env:
