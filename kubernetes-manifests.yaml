@@ -824,7 +824,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/adservice:latest
+        image: elkakimmie/adservice:123
         ports:
         - containerPort: 9555
         env:
