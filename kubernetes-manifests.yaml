@@ -495,7 +495,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/cartservice:latest
+        image: elkakimmie/cartservice:127
         ports:
         - containerPort: 7070
         env:
