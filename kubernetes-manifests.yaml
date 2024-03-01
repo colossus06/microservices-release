@@ -630,7 +630,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/currencyservice:127
+        image: elkakimmie/currencyservice:138
         ports:
         - name: grpc
           containerPort: 7000
