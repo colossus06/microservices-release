@@ -694,7 +694,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/shippingservice:127
+        image: elkakimmie/shippingservice:136
         ports:
         - containerPort: 50051
         env:
