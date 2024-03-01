@@ -367,7 +367,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/paymentservice:127
+        image: elkakimmie/paymentservice:144
         ports:
         - containerPort: 50051
         env:
