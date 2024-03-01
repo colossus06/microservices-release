@@ -431,7 +431,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/productcatalogservice:127
+        image: elkakimmie/productcatalogservice:146
         ports:
         - containerPort: 3550
         env:
