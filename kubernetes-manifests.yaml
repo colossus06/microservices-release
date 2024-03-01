@@ -186,7 +186,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/recommendationservice:127
+        image: elkakimmie/recommendationservice:147
         ports:
         - containerPort: 8080
         readinessProbe:
