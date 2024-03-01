@@ -47,7 +47,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: elkakimmie/emailservice:134
+        image: elkakimmie/emailservice:137
         ports:
         - containerPort: 8080
         env:
