@@ -112,7 +112,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: elkakimmie/checkoutservice:127
+          image: elkakimmie/checkoutservice:139
           ports:
           - containerPort: 5050
           readinessProbe:
